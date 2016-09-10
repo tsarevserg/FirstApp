@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FirstApp</string>
+    <string name="hello">Hello <b>World</b></string>
+
+    <string name="msg_one">Первый способ</string>
+    <string name="msg_two">Второй способ</string>
+
+    <string name="bt_one">Кнопка 1</string>
+    <string name="bt_two">Кнопка 2</string>
 </resources>

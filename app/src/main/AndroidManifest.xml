@@ -14,6 +14,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AboutActivity"
+                  android:label="@string/hello">
+        </activity>
+
     </application>
 
 </manifest>

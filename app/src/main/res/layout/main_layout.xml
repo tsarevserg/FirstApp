@@ -8,6 +8,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Hello World"
-            android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
+            android:text="@string/hello"
+            android:id="@+id/labelMain"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_one"
+            android:id="@+id/btOne"
+            android:onClick="btOneClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_two"
+            android:id="@+id/btTwo"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:id="@+id/btAbout"
+            android:onClick="btAboutClick"/>
 </LinearLayout>
